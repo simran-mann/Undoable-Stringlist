@@ -1,5 +1,3 @@
-// Stringlist.h
-
 #pragma once
 
 #include <cassert>
