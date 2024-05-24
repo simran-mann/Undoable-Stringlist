@@ -1,27 +1,8 @@
-## Data Structures and Programming Assignment 2: An Undoable List
+## Data Structures and Programming Assignment: An Undoable List
 
-> In software, 'undo' erases our mistakes; in life, mistakes craft our story.
-> Imagine the tales we'd lose with a real-life *Ctrl*+*Z*. -- *ChatGPT*
+In this assingment, I implemented the operations defined in the Stringlist.h file which undo changes made to a list of strings. 
 
-In this assignment, I was given a Stringlist class with operations as defined in the Stringlist.h file. 
-My task is to add an undo feature to the string list class.
-
-`Stringlist` has one unimplemented method:
-
-```cpp
-//
-// Undoes the last operation that modified the list. Returns true if a
-// change was undone.
-//
-// If there is nothing to undo, does nothing and returns false.
-//
-bool undo()
-{
-    cout << "Stringlist::undo: not yet implemented\n";
-    return false;
-}
-```
-
+An example of how it works: 
 
 #include "Stringlist.h"
 #include <iostream>
